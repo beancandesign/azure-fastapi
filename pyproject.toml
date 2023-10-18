@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gcp-fastapi"
+version = "0.0.1"
+description = "API to manage cloud run jobs on GCP"
+authors = ["Ben Cannell <bean.can.design@gmail.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+packages = [{include = "gcp_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+oswdatamodel = "^0.0.4"
+google-api-core = "^2.12.0"
+fastapi = "^0.104.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

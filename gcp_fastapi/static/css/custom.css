@@ -1,0 +1,64 @@
+@media screen and (max-width : 350px)
+{
+  html
+  {
+    font-size: 3vw
+  }
+}
+
+body {
+    padding-top: 5em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.fullwidth {
+    width: 100vw;
+    margin-bottom: 1em;
+}
+
+.maincontent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    padding-bottom: 40px;
+}
+
+.padbutton {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.credits .container:after {
+    height: 1em;
+}
+
+.credits {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 1em;
+}
+
+.fillbottom {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    height: 100%;
+    justify-content: end;
+}
+
+.padcard {
+    padding-top: 10px;
+}
+
+.logos {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 1em;
+}
